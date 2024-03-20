@@ -1,9 +1,9 @@
 #Tendo como dados de entrada a altura e o sexo de uma pessoa, construa um fluxograma e seu respectivo programa em python que 
-# calcuse seu peso ideal, utilizando as seguintes fórmulas: 
+# calcule seu peso ideal, utilizando as seguintes fórmulas: 
 #a. Para homens: (72.7*h) – 58 
 #b. Para mulheres: (62.1*h)-44,7 kg (sendo h = altura)
-#Dados de entrada : altura e sexo da pessoa
-#Calcular peso ideal segundo o sexo
+#Dados de entrada (Passo 1 ) : altura e sexo da pessoa
+#Passo 2 :Calcular peso ideal segundo o sexo
 print("Calculadora de peso ideal")
 sexo_biologico= print(input(("Qual seu sexo biológico?")))
 altura = float(input("Informe a sua altura : "))
