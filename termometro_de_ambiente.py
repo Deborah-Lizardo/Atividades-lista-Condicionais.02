@@ -4,8 +4,8 @@
 #Passo 3: else*(ou elif temp.amb. <25 e >15 ?), print ("temperatura agradável!") (entre 15 e 25)
 temperatura_ambiente = int(input("Como está a temperatura hoje, em  ºC? "))
 if temperatura_ambiente < 15 :
-    print("Está frio hoje!")
+    print(f"Está frio hoje!Atualmemte está {temperatura_ambiente}ºC.")
 if temperatura_ambiente > 25 :
-    print("Está calor hoje!")
+    print(f"Está calor hoje!Atualmemte está {temperatura_ambiente}ºC")
 else :
-    print("Está uma temperatura agradável hoje!")
+    print(f"Está uma temperatura agradável hoje!Atualmemte está {temperatura_ambiente}ºC")
