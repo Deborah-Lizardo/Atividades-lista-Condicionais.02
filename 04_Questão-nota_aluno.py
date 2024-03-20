@@ -4,7 +4,7 @@
 #e 7 (exclusive), informar “Estudante em recuperação"  e se estiver 
 #abaixo de 4 informar “Estudante reprovado”.
 # Programa o qual interpretará o boletim escolar 
-nota_aluno = float(input("Informe a sua nota : "))
+nota_aluno = int(input("Informe a sua nota : "))
 if nota_aluno < 4 :
     print("Estudante reprovado.")
 if nota_aluno >=7 :
