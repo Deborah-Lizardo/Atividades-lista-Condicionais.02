@@ -7,8 +7,8 @@
 #Passo 3 : exibir valor final;
 numero = float(input("Digite o seu número: "))
 if numero %2 == 0 :
-    float(input(f"O número inserido ({numero})é par."))
+    float(input(f"O número inserido ({numero:.0f})é par."))
     numero = ("P")
 else :
-    float(input(f"O número inserido ({numero}) é ìmpar"))
+    float(input(f"O número inserido ({numero:.0f}) é ìmpar."))
     numero = ("I")
